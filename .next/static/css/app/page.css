@@ -1,0 +1,130 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[9].use[5]!./app/components/Loader/Loader.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Loader_loader__BFVUn {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+  z-index: 2;
+}
+.Loader_loader__wrapper___Yw4c {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+.Loader_loader__words__1GFS4 {
+  position: relative;
+  overflow: hidden;
+  height: 41.8rem;
+}
+.Loader_loader__overlay__EUqYe {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 47%, transparent, transparent 47%, transparent, transparent 55%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9));
+}
+.Loader_loader__word__2uypl {
+  display: block;
+  font-size: 3.2rem;
+}
+.Loader_loader__progressWrapper__Ik0mJ {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+  z-index: 3;
+}
+.Loader_loader__progress__ef0MG {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.Loader_loader__progressNumber__aS7BF {
+  position: absolute;
+  left: -5vw;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  white-space: nowrap;
+  color: white;
+  font-size: 3.2rem;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/components/Logo/Logo.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Logo_logo__L_kdW {
+  width: 3.8rem;
+  height: 1.9rem;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[9].use[5]!./app/components/Hero/Hero.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__C_Ii_ {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Hero_hero__top__AqXsg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 4rem;
+  margin-top: 3.2rem;
+}
+.Hero_hero__title__eLi0i {
+  position: absolute;
+  top: 50%;
+  left: 4rem;
+  width: calc(100% - 8rem);
+  transform: translateY(-50%);
+  margin-bottom: 8rem;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  grid-gap: 3.2rem;
+  gap: 3.2rem;
+  font-size: 16rem;
+}
+.Hero_hero__line__mBZZm {
+  display: inline-block;
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: center center;
+}
+.Hero_hero__image__AiB_K {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0vh;
+  height: 37vh;
+  left: 0;
+  width: 100%;
+  transform-origin: top center;
+}
+.Hero_hero__imageOverlay__i_6be {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background-color: black;
+  transform: scaleY(0.31);
+  transform-origin: bottom center;
+}

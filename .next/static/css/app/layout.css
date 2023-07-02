@@ -1,0 +1,58 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[3].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.js","import":"","arguments":[{"src":"../public/fonts/ppneue.woff2"}],"variableName":"ppNeue"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__ppNeue_86961e';
+src: url(/_next/static/media/be78684d432e3822-s.p.woff2) format('woff2');
+font-display: swap;
+}@font-face {font-family: '__ppNeue_Fallback_86961e';src: local("Arial");ascent-override: 99.93%;descent-override: 25.24%;line-gap-override: 0.00%;size-adjust: 95.87%
+}.__className_86961e {font-family: '__ppNeue_86961e', '__ppNeue_Fallback_86961e'
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[3]!./app/globals.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1728 * 10);
+}
+
+body {
+  font-size: clamp(16px, 1.6rem, 1.6rem);
+  font-family: "Matter Regular", sans-serif;
+
+  font-style: normal;
+  font-variation-settings: "ital" 0, "wght" 400;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  letter-spacing: -0.03em;
+}
+
+[data-hidden] {
+  opacity: 0;
+}
+
+h1 {
+  font-size: 16rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
